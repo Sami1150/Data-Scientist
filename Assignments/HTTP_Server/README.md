@@ -56,4 +56,5 @@ curl -X POST http://localhost:8000/items
 
 ```
 
-
+#### 4. Close the server
+You can close the server by running the second cell on server script `server.ipynb`
