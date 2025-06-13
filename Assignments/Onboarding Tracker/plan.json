@@ -1,0 +1,45 @@
+[
+  {
+    "day": 1,
+    "title": "Python Fundamentals",
+    "topics": [
+      "Data types, variables, and control structures (loops, conditionals)",
+      "Functions and modules"
+    ]
+  },
+  {
+    "day": 2,
+    "title": "Object-Oriented & Essential Libraries",
+    "topics": [
+        "Classes, objects, inheritance, and polymorphism",
+        "Try-except blocks and debugging practices",
+        "Built-in modules: json, re, typing, socket"
+    ]
+  },
+  {
+    "day": 3,
+    "title": "Concurrency & Environment",
+    "topics": [
+        "Using multiprocessing and asyncio for parallelism",
+        "Virtual environments: venv, project structure, pip, uv"
+    ]
+  },
+  {
+    "day": 4,
+    "title": "Development Environment",
+    "topics": [
+        "IDE Setup: Jupyter Notebook, JupyterLab, Google Colab",
+        "VSCode: Python compiler, debugger, linting",
+        "VSCode Plugins: Python, Jupyter, RainbowCSV, Remote Development"
+    ]
+  },
+  {
+    "day": 5,
+    "title": "Advanced Python & Testing",
+    "topics": [
+        "Dunder methods, Generators, Decorators",
+        "Pytest and unit testing",
+        "Overview of scikit-learn, pandas, plotly"
+    ]
+  }
+]

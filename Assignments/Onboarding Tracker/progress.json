@@ -1,0 +1,97 @@
+[
+  {
+    "day": 1,
+    "title": "Python Fundamentals",
+    "topics": [
+      {
+        "title": "Data types, variables, and control structures (loops, conditionals)",
+        "status": "Done",
+        "comment": "1"
+      },
+      {
+        "title": "Functions and modules",
+        "status": "Not Initiated",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "title": "Object-Oriented & Essential Libraries",
+    "topics": [
+      {
+        "title": "Classes, objects, inheritance, and polymorphism",
+        "status": "Not Initiated",
+        "comment": ""
+      },
+      {
+        "title": "Try-except blocks and debugging practices",
+        "status": "Not Initiated",
+        "comment": ""
+      },
+      {
+        "title": "Built-in modules: json, re, typing, socket",
+        "status": "Not Initiated",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "title": "Concurrency & Environment",
+    "topics": [
+      {
+        "title": "Using multiprocessing and asyncio for parallelism",
+        "status": "Not Initiated",
+        "comment": ""
+      },
+      {
+        "title": "Virtual environments: venv, project structure, pip, uv",
+        "status": "Not Initiated",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "title": "Development Environment",
+    "topics": [
+      {
+        "title": "IDE Setup: Jupyter Notebook, JupyterLab, Google Colab",
+        "status": "Not Initiated",
+        "comment": ""
+      },
+      {
+        "title": "VSCode: Python compiler, debugger, linting",
+        "status": "Not Initiated",
+        "comment": ""
+      },
+      {
+        "title": "VSCode Plugins: Python, Jupyter, RainbowCSV, Remote Development",
+        "status": "Not Initiated",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "title": "Advanced Python & Testing",
+    "topics": [
+      {
+        "title": "Dunder methods, Generators, Decorators",
+        "status": "Done",
+        "comment": ""
+      },
+      {
+        "title": "Pytest and unit testing",
+        "status": "In Progress",
+        "comment": ""
+      },
+      {
+        "title": "Overview of scikit-learn, pandas, plotly",
+        "status": "Not Initiated",
+        "comment": ""
+      }
+    ]
+  }
+]
