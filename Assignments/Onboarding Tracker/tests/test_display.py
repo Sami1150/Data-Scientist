@@ -1,6 +1,6 @@
 import pytest
 from rich.console import Console
-from utils.display import display_plan_table  # Update import path as needed
+from utils.display import display_plan_table
 from plan.models import Day, Topic
 
 def test_display_plan_table_renders_output():
@@ -13,7 +13,7 @@ def test_display_plan_table_renders_output():
 
     console = Console()
     with console.capture() as capture:
-        display_plan_table(plan, console=console)  # Pass captured console here
+        display_plan_table(plan, console=console)
     
     output = capture.get()
 
