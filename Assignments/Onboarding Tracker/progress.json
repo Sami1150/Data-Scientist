@@ -79,13 +79,13 @@
     "topics": [
       {
         "title": "Dunder methods, Generators, Decorators",
-        "status": "Done",
+        "status": "Not Initiated",
         "comment": ""
       },
       {
         "title": "Pytest and unit testing",
         "status": "In Progress",
-        "comment": ""
+        "comment": "I will do in weekend"
       },
       {
         "title": "Overview of scikit-learn, pandas, plotly",
