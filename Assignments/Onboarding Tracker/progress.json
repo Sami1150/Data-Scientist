@@ -32,7 +32,7 @@
       {
         "title": "Built-in modules: json, re, typing, socket",
         "status": "Not Initiated",
-        "comment": ""
+        "comment": "\nDoing"
       }
     ]
   },
@@ -85,7 +85,7 @@
       {
         "title": "Pytest and unit testing",
         "status": "In Progress",
-        "comment": "I will do in weekend"
+        "comment": "I will do in weekendSmai\nAdil Qureshi\nArsalan Bhai"
       },
       {
         "title": "Overview of scikit-learn, pandas, plotly",

@@ -15,14 +15,6 @@ class Topic:
             "comment": self.comment
         }
 
-    @classmethod
-    def from_dict(cls, data):
-        return cls(
-            title=data.get("title"),
-            status=data.get("status", "Not Initiated"),
-            comment=data.get("comment", "")
-        )
-
 @dataclass
 class Day:
     day_number: int
