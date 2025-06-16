@@ -1,10 +1,10 @@
-import pytest
-from unittest.mock import patch
-from plan.plan_loader import load_learning_plan
+from plan.plan_loader import load_learning_plan, save_json_file, load_progress
 from plan.models import Day, Topic
-from plan.plan_loader import load_progress
 import tempfile
 import os
+import json
+from unittest.mock import mock_open, patch
+
 
 @patch("plan.plan_loader.load_json_file")
 def test_load_learning_plan(mock_load_json_file):
@@ -63,10 +63,6 @@ def test_load_progress_updates_topic_status_and_comment(mock_load_json_file):
     assert plan[0].topics[1].status == "In Progress"
     assert plan[0].topics[1].comment == ""
     
-import json
-from unittest.mock import mock_open, patch
-from plan.plan_loader import save_json_file 
-
 def test_save_json_file_writes_correct_data():
     test_data = [
         {"day": 1, "title": "Intro", "topics": [{"title": "Variables", "status": "Done", "comment": "OK"}]}

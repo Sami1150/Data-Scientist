@@ -1,4 +1,3 @@
-import pytest
 from unittest.mock import patch
 from plan.manager import PlanManager
 from plan.models import Day, Topic 
@@ -11,7 +10,6 @@ def test_get_plan(mock_load_progress, mock_load_learning_plan):
     mock_load_progress.return_value = dummy_plan
     
     manager = PlanManager("dummy_plan.json", "dummy_progress.json")
-    print("sami", manager.get_plan())
     assert manager.get_plan() == dummy_plan
     
 @patch("plan.manager.load_learning_plan")
