@@ -6,7 +6,7 @@ class PlanManager:
         self.plan_file = plan_file
         self.progress_file = progress_file
         self.plan = load_learning_plan(plan_file)
-        load_progress(progress_file, self.plan)
+        self.plan = load_progress(progress_file, self.plan)
 
     def get_plan(self):
         return self.plan
@@ -21,7 +21,7 @@ class PlanManager:
 
         topic = day.topics[topic_index]
         topic.status = status
-        topic.comment = comment
+        topic.comment += '\n' + comment
 
     def save_progress(self):
         data = [day.to_dict() for day in self.plan]

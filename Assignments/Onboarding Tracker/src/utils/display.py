@@ -14,7 +14,6 @@ def display_plan_table(plan, console: Console = None):  # type: ignore
 
     for day in plan:
         topics = day.topics
-        topic_count = len(topics)
         
         day_cell = Text(f"Day {day.day_number}\n{day.title}")
         first_topic = True

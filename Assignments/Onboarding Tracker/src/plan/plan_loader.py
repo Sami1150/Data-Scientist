@@ -29,6 +29,8 @@ def load_progress(filepath: str, plan: List[Day]):
                             topic.comment = saved_topic.get("comment", "")
                             break
                         
+    return plan
+                        
 def save_json_file(filepath: str, data: list[dict]):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2)
