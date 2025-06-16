@@ -21,7 +21,7 @@ class PlanManager:
 
         topic = day.topics[topic_index]
         topic.status = status
-        topic.comment += '\n' + comment
+        topic.comment += ('\n' if topic.comment else '') + comment
 
     def save_progress(self):
         data = [day.to_dict() for day in self.plan]
