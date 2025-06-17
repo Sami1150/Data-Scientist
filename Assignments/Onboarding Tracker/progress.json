@@ -5,8 +5,8 @@
     "topics": [
       {
         "title": "Data types, variables, and control structures (loops, conditionals)",
-        "status": "Done",
-        "comment": "1"
+        "status": "Not Initiated",
+        "comment": ""
       },
       {
         "title": "Functions and modules",
@@ -32,7 +32,7 @@
       {
         "title": "Built-in modules: json, re, typing, socket",
         "status": "Not Initiated",
-        "comment": "\nDoing"
+        "comment": ""
       }
     ]
   },
@@ -84,11 +84,11 @@
       },
       {
         "title": "Pytest and unit testing",
-        "status": "In Progress",
-        "comment": "I will do in weekendSmai\nAdil Qureshi\nArsalan Bhai"
+        "status": "Not Initiated",
+        "comment": ""
       },
       {
-        "title": "Overview of scikit-learn, pandas, plotly",
+        "title": "Overview of scikit-learn, pandas, plotly ",
         "status": "Not Initiated",
         "comment": ""
       }

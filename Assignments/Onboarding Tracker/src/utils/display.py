@@ -2,7 +2,7 @@ from rich.console import Console
 from rich.table import Table
 from rich.text import Text 
 
-def display_plan_table(plan, console: Console = None):  # type: ignore
+def display_plan_table(plan, console: Console | None):
     if console is None:
         console = Console()
     table = Table(title="Learning Plan Progress", show_lines=True)

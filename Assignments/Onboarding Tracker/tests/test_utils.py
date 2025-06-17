@@ -20,6 +20,6 @@ def test_load_json_file_success():
 
 
 def test_load_json_file_not_found():
-    with pytest.raises(FileNotFoundError) as excinfo:
-        load_json_file("nonexistent_file.json")
-    assert "nonexistent_file.json not found." in str(excinfo.value)
+    result = load_json_file("nonexistent_file.json")
+    assert result == []
+

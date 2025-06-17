@@ -12,12 +12,18 @@ def test_load_learning_plan(mock_load_json_file):
         {
             "day": 1,
             "title": "Intro to Python",
-            "topics": ["Variables", "Data Types"]
+            "topics": [
+                {"title": "Variables"},
+                {"title": "Data Types"}
+            ]
         },
         {
             "day": 2,
             "title": "Control Flow",
-            "topics": ["If Statements", "Loops"]
+            "topics": [
+                {"title": "If Statements"},
+                {"title": "Loops"}
+            ]
         }
     ]
     mock_load_json_file.return_value = test_json
@@ -34,6 +40,7 @@ def test_load_learning_plan(mock_load_json_file):
     assert plan[0].topics[1].title == "Data Types"
     assert plan[1].day_number == 2
     assert plan[1].topics[1].title == "Loops"
+
 
 @patch("plan.plan_loader.load_json_file")
 def test_load_progress_updates_topic_status_and_comment(mock_load_json_file):

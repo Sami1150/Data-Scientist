@@ -3,43 +3,90 @@
     "day": 1,
     "title": "Python Fundamentals",
     "topics": [
-      "Data types, variables, and control structures (loops, conditionals)",
-      "Functions and modules"
+      {
+        "title": "Data types, variables, and control structures (loops, conditionals)",
+        "status": "Not Initiated",
+        "comment": ""
+      },
+      {
+        "title": "Functions and modules",
+        "status": "Not Initiated",
+        "comment": ""
+      }
     ]
   },
   {
     "day": 2,
     "title": "Object-Oriented & Essential Libraries",
     "topics": [
-        "Classes, objects, inheritance, and polymorphism",
-        "Try-except blocks and debugging practices",
-        "Built-in modules: json, re, typing, socket"
+      {
+        "title": "Classes, objects, inheritance, and polymorphism",
+        "status": "Not Initiated",
+        "comment": ""
+      },
+      {
+        "title": "Try-except blocks and debugging practices",
+        "status": "Not Initiated",
+        "comment": ""
+      },
+      {
+        "title": "Built-in modules: json, re, typing, socket",
+        "status": "Not Initiated",
+        "comment": ""
+      }
     ]
   },
   {
     "day": 3,
     "title": "Concurrency & Environment",
     "topics": [
-        "Using multiprocessing and asyncio for parallelism",
-        "Virtual environments: venv, project structure, pip, uv"
+      {
+        "title": "Using multiprocessing and asyncio for parallelism",
+        "status": "Not Initiated",
+        "comment": ""
+      },
+      {
+        "title": "Virtual environments: venv, project structure, pip, uv",
+        "status": "Not Initiated",
+        "comment": ""
+      }
     ]
   },
   {
     "day": 4,
     "title": "Development Environment",
     "topics": [
-        "IDE Setup: Jupyter Notebook, JupyterLab, Google Colab",
-        "VSCode: Python compiler, debugger, linting",
-        "VSCode Plugins: Python, Jupyter, RainbowCSV, Remote Development"
+      {
+        "title": "IDE Setup: Jupyter Notebook, JupyterLab, Google Colab",
+        "status": "Not Initiated",
+        "comment": ""
+      },
+      {
+        "title": "VSCode: Python compiler, debugger, linting",
+        "status": "Not Initiated",
+        "comment": ""
+      },
+      {
+        "title": "VSCode Plugins: Python, Jupyter, RainbowCSV, Remote Development",
+        "status": "Not Initiated",
+        "comment": ""
+      }
     ]
   },
   {
     "day": 5,
     "title": "Advanced Python & Testing",
     "topics": [
-        "Dunder methods, Generators, Decorators",
-        "Pytest and unit testing",
-        "Overview of scikit-learn, pandas, plotly"
+      {
+        "title": "Dunder methods, Generators, Decorators",
+        "status": "Not Initiated",
+        "comment": ""
+      },
+      {
+        "title": "Pytest and unit testing",
+        "status": "Not Initiated",
+        "comment": ""
+      }
     ]
   }
 ]

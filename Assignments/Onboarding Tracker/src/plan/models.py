@@ -7,6 +7,14 @@ class Topic:
         self.title = title
         self.status = status 
         self.comment = comment
+        
+    @classmethod
+    def from_dict(cls, data: dict):
+        return cls(
+            title=data.get("title", ""),
+            status=data.get("status", "Not Initiated"),
+            comment=data.get("comment", "")
+        )
 
     def to_dict(self):
         return {

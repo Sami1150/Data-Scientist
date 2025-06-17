@@ -18,3 +18,7 @@ uv run main.py
 uv run pytest -v
 uv run pytest
 ```
+
+## See unit test coverage
+
+pytest tests --cov=src 

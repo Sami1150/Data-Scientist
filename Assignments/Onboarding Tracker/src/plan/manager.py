@@ -26,3 +26,37 @@ class PlanManager:
     def save_progress(self):
         data = [day.to_dict() for day in self.plan]
         save_json_file(self.progress_file, data)
+
+    def save_plan(self):
+        save_json_file(self.plan_file, [day.to_dict() for day in self.plan])
+
+        
+    def delete_plan(self, day_number: int):
+        self.plan = [day for day in self.plan if day.day_number != day_number]
+        self.save_plan()
+        self.save_progress()
+        
+    def delete_topic(self, topic_number: int):
+        topic_counter = 1
+        for day in self.plan:
+            for i, topic in enumerate(day.topics):
+                if topic_counter == topic_number:
+                    day.topics = [t for j, t in enumerate(day.topics) if j != i]
+                    break
+                topic_counter += 1
+        self.save_plan()
+        self.save_progress()
+
+
+        
+    def insert_day(self, day_number: int, title: str, topics: list[Topic]):
+        if any(day.day_number == day_number for day in self.plan):
+            raise ValueError(f"Day {day_number} already exists.")
+
+        new_day = Day(day_number=day_number, title=title, topics=topics)
+        self.plan.append(new_day)
+        self.plan.sort(key=lambda d: d.day_number)
+        self.save_plan()
+        self.save_progress()
+
+
