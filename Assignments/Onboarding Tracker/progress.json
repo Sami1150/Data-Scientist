@@ -86,11 +86,6 @@
         "title": "Pytest and unit testing",
         "status": "Not Initiated",
         "comment": ""
-      },
-      {
-        "title": "Overview of scikit-learn, pandas, plotly ",
-        "status": "Not Initiated",
-        "comment": ""
       }
     ]
   }

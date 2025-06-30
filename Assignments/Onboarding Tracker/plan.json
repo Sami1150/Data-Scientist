@@ -81,11 +81,6 @@
         "title": "Dunder methods, Generators, Decorators",
         "status": "Not Initiated",
         "comment": ""
-      },
-      {
-        "title": "Pytest and unit testing",
-        "status": "Not Initiated",
-        "comment": ""
       }
     ]
   }

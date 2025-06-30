@@ -96,6 +96,6 @@ def main():
                 print(f"❌ {str(e)}")
         elif choice == "5":
             break
-
+import numpy
 if __name__ == "__main__":
     main()

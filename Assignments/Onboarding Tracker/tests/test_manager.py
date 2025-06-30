@@ -83,7 +83,7 @@ def test_delete_topic(mock_load_progress, mock_load_learning_plan, mock_plan):
     mock_load_progress.return_value = mock_plan
 
     manager = PlanManager("dummy_plan.json", "dummy_progress.json")
-    manager.delete_topic(2)  # deletes T2 (2nd topic globally)
+    manager.delete_topic(2) 
 
     updated_plan = manager.get_plan()
     assert len(updated_plan[0].topics) == 1
@@ -94,7 +94,7 @@ def test_delete_topic(mock_load_progress, mock_load_learning_plan, mock_plan):
 @patch("plan.manager.load_learning_plan")
 @patch("plan.manager.load_progress")
 def test_insert_day_success(mock_load_progress, mock_load_learning_plan, mock_plan):
-    mock_load_learning_plan.return_value = mock_plan[:1]  # Only Day 1
+    mock_load_learning_plan.return_value = mock_plan[:1]  
     mock_load_progress.return_value = mock_plan[:1]
 
     manager = PlanManager("dummy_plan.json", "dummy_progress.json")
@@ -109,3 +109,7 @@ def test_insert_day_success(mock_load_progress, mock_load_learning_plan, mock_pl
     assert plan[1].title == "Day 2"
     assert len(plan[1].topics) == 2
     assert plan[1].topics[0].title == "T2"
+    
+    # assert_called_once_with
+    # assert_called_twice_with
+
